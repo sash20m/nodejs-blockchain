@@ -1,8 +1,3 @@
-/*
- * Copyright 2018 Elad Elrom, All Rights Reserved.
- * Code licensed under the BSD License:
- * @author Elad Elrom <elad.ny...gmail.com>
- */
 exports.BlockHeader = class BlockHeader {
     constructor(version, previousBlockHeader, merkleRoot, time) {
         this.version = version; // Version - at the time of writing there are 4 block versions. Version 1 is the genesis block (2009), Version 2 was a soft fork in Bitcoin Core 0.7.0 (2012). Version 3 blocks were a soft fork in Bitcoin Core 0.10.0 (2015). Version 4 blocks are BIP65 in Bitcoin Core 0.11.2 (2015).
@@ -19,3 +14,4 @@ exports.Block = class Block {
         this.txns = txns; // txns is the raw transaction in the block.
     }
 }
+

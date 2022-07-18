@@ -1,8 +1,3 @@
-/*
- * Copyright 2018 Elad Elrom, All Rights Reserved.
- * Code licensed under the BSD License:
- * @author Elad Elrom <elad.ny...gmail.com>
- */
 'use strict';
 
 let logger = require('../logger');

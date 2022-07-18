@@ -1,10 +1,6 @@
-/*
- * Copyright 2018 Elad Elrom, All Rights Reserved.
- * Code licensed under the BSD License:
- * @author Elad Elrom <elad.ny...gmail.com>
- */
 "use strict";
 
+const e = require("express");
 let base = require("../base"),
     logger = require("../logger"),
     nopt = require("nopt"),
